@@ -25,11 +25,10 @@ The output is the predicted label for the demo exercise.
 
 We used the [KIMORE](https://vrai.dii.univpm.it/content/kimore-dataset) dataset, and [UI-PRMD](https://webpages.uidaho.edu/ui-prmd/):</br>
 
-The training/testing split can be found in supplymentary material. </br>
     
 
 # Training
-To train the model you have to first download the dataset from above link. The data and labels of an exercise have to be inside a folder for example "Kimore ex3". Then run the train.py file to train the model. You can change the optimizer, learning rate and other parameters by editing `train.py`. The total number of training epoch is 2000; the learning rate is initialized as 0.0001.
+To train the model you have to first download the dataset from above link. The data and labels of an exercise have to be inside a folder. Then run the train.py file to train the model. You can change the optimizer, learning rate and other parameters by editing `train.py`. The total number of training epoch is 2000; the learning rate is initialized as 0.0001.
 You can train the model following this command.
 ```shell
 python train.py
