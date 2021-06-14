@@ -1,7 +1,7 @@
 ## Introduction
 
 This is a TensorFlow 2.0 implementation of our paper.
-Inside the Data folder we have a demo exercise video of Kimore dataset exercise 3, corresponding skeleton data namely `input.csv` and the actual score `label.csv`.
+Inside the Data folder we have a demo exercise video of Kimore dataset exercise 3, corresponding skeleton data `input.csv` and the actual score `label.csv`.
 
 ## Dependencies/Setup
 
