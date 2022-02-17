@@ -1,14 +1,24 @@
-## Introduction
+# Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises
 
-This is a TensorFlow 2.0 implementation of our paper.
-Inside the Data folder we have a demo exercise video of Kimore dataset exercise 3, corresponding skeleton data `input.csv` and the actual score `label.csv`.
+This code is the official implementation of the following works (train + eval):
+
+* S. Deb, M. F. Islam, S. Rahman and S. Rahman, "Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, doi: 10.1109/TNSRE.2022.3150392.
+
+![sk-1](https://user-images.githubusercontent.com/55605296/154412915-6039717f-1070-400e-a8df-e20c3e751195.png)
 
 ## Dependencies/Setup
 
 ### Requirements
 - Python3 (>3.5)
 - Install Tensorflow 2.0 from https://www.tensorflow.org/install
-- Other Python libraries can be installed by `pip install -r requirements.txt`
+- To install other libraries simply run `pip install -r requirements.txt`
+
+## Files
+
+
+Inside the Data folder we have a demo exercise video of Kimore dataset exercise 3, corresponding skeleton data `input.csv` and the actual score `label.csv`.
+
+
 
 ## Running the demo
 You can use the following commands to run the demo.
@@ -33,3 +43,18 @@ You can train the model following command.
 ```shell
 python train.py
 ```
+
+## Citation
+If you use this code, model and dataset splits for your research, please consider citing:
+
+```
+@ARTICLE{9709340,
+  author={Deb, Swakshar and Islam, Md Fokhrul and Rahman, Shafin and Rahman, Sejuti},
+  journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
+  title={Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TNSRE.2022.3150392}}
+  ```
