@@ -4,7 +4,7 @@ This code is the official implementation of the following works (train + eval):
 
 * S. Deb, M. F. Islam, S. Rahman and S. Rahman, "Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, doi: 10.1109/TNSRE.2022.3150392.
 
-![sk-1](https://raw.githubusercontent.com/fokhruli/STGCN-rehab/main/Figure/intro-1.png)
+![sk-1](https://user-images.githubusercontent.com/55605296/154412915-6039717f-1070-400e-a8df-e20c3e751195.png)
 
 ### Data Preparation
 
@@ -26,10 +26,11 @@ unzip <path to processed-data.zip>
 - To install other libraries simply run `pip install -r requirements.txt`
 
 ## Files
-
-
-Inside the Data folder we have a demo exercise video of Kimore dataset exercise 3, corresponding skeleton data `input.csv` and the actual score `label.csv`.
-
+* `train.py` : to perform training on Physical rehabilitation exercise
+* `data_preprocessing.py` : preproces the data collected from dataset. It is mandatory to do some preprocessing before feeding it network.
+* `graph.py` : It will generate skeleton graph from given data
+* `stgcn_lstm.py` : build propose ST-GCN method 
+* `demo.py` : perform a demo inference for given sample.
 
 
 ## Running instructions
@@ -53,6 +54,8 @@ You can train the model following command.
 ```shell
 python train.py
 ```
+
+
 ## Notes on experiment
 ![sk-1](https://raw.githubusercontent.com/fokhruli/STGCN-rehab/main/Figure/guidence_vis-1.png)
 
@@ -72,3 +75,10 @@ If you use this code and model and dataset splits for your research, please cons
   ```
 ## Acknowledgment
 We thank the authors and contributors of original [ST-GCN implementation](https://github.com/fizyr/keras-retinanet).
+
+## Contact
+For any question, feel free to contact
+```
+Swakshar Deb     : swakshar.sd@gmail.com
+Md Fokhrul Islam : fokhrul.rmedu@gmail.com
+```
