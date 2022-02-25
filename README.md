@@ -74,7 +74,7 @@ If you use this code and model and dataset splits for your research, please cons
   doi={10.1109/TNSRE.2022.3150392}}
   ```
 ## Acknowledgment
-We thank the authors and contributors of original [GCN implementation](https://github.com/tkipf/gcn).
+We thank the authors and contributors of original [ST-GCN implementation](https://github.com/fizyr/keras-retinanet).
 
 ## Contact
 For any question, feel free to contact

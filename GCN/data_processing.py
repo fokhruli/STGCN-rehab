@@ -53,8 +53,8 @@ class Data_Loader():
         return body_parts
     
     def import_dataset(self):
-        train_x = pd.read_csv(self.dir+"/Train_X.csv", header = None).iloc[:,:].values
-        train_y = pd.read_csv(self.dir+"/Train_Y.csv", header = None).iloc[:,:].values
+        train_x = pd.read_csv("./" + self.dir+"/Train_X.csv", header = None).iloc[:,:].values
+        train_y = pd.read_csv("./" + self.dir+"/Train_Y.csv", header = None).iloc[:,:].values
         return train_x, train_y
             
     def preprocessing(self):
@@ -81,3 +81,4 @@ class Data_Loader():
                         
         X_train = X_train_                
         return X_train, y_train
+
