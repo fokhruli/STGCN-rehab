@@ -56,7 +56,8 @@ python train.py --ex Kimore_ex5 --epoch 2000 --batch_size 10
 ```
 
 ## Notes on experiment
-![sk-1](https://raw.githubusercontent.com/fokhruli/STGCN-rehab/main/Figure/guidence_vis-1.png)
+
+![guidence_vis-1](https://user-images.githubusercontent.com/55605296/155735706-fbe9291f-b438-45bc-ad84-63f4b826cb00.jpg)
 
 ## Citation
 If you use this code and model and dataset splits for your research, please consider citing:
