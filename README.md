@@ -11,6 +11,7 @@ Figure 1: Overview of existing vs. the proposed method. (a) The existing deep le
 ![sk-1](https://user-images.githubusercontent.com/55605296/154412915-6039717f-1070-400e-a8df-e20c3e751195.png)
 
 Figure 2: GCN based end-to-end models using (a-b) vanilla STGCN and (c-d) extended STGCN for rehabilitation exercise assessment. 'TC', \oplus and \odot denote temporal convolution, concatenation and element-wise multiplication, respectively. (b) and (d) illustrate the detailed components of the <font color="green">green</font> STGCN block of (a) and (c), respectively. 
+
 ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
 
 
