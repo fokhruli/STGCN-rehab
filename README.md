@@ -1,9 +1,8 @@
 # Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises
 
 This code is the official implementation of the following works (train + eval):
-
-* S. Deb, M. F. Islam, S. Rahman and S. Rahman, "[Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9709340)," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, doi: 10.1109/TNSRE.2022.3150392.
-
+* S. Deb, M. F. Islam, S. Rahman and S. Rahman, "[Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9709340)," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 30, pp. 410-419, 2022, doi: 10.1109/TNSRE.2022.3150392.
+* 
 ![sk-1](https://user-images.githubusercontent.com/55605296/154412915-6039717f-1070-400e-a8df-e20c3e751195.png)
 
 ### Data Preparation
