@@ -3,7 +3,15 @@
 This code is the official implementation of the following works (train + eval):
 * S. Deb, M. F. Islam, S. Rahman and S. Rahman, "[Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9709340)," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 30, pp. 410-419, 2022, doi: 10.1109/TNSRE.2022.3150392.
 
+![intro-1](https://user-images.githubusercontent.com/55605296/155846897-2d1d14b3-b09f-4f8f-b73b-17ec347a3de0.png)
+
+Figure 1: Overview of existing vs. the proposed method. (a) The existing deep learning method applies CNN to the grid structure of stacked skeleton (body-joints) data. It performs consistently only with fixed-length input and ignores spatio-temporal topological structure from interaction among neighborhood joints. (b) Our proposed method employs STGCN to address the issues mentioned above. We offer extensions to STGCN using LSTM to extract rich spatio-temporal features and attend to different body-joints (as illustrated in colored joints) based on their role in the given exercise. It enables our method to guide users for better assessment scores.
+
+
 ![sk-1](https://user-images.githubusercontent.com/55605296/154412915-6039717f-1070-400e-a8df-e20c3e751195.png)
+
+Figure 2: GCN based end-to-end models using (a-b) vanilla STGCN and (c-d) extended STGCN for rehabilitation exercise assessment. 'TC', $\oplus$ and $\odot$ denote temporal convolution, concatenation and element-wise multiplication, respectively. (b) and (d) illustrate the detailed components of the <span style="color:blue">green</span> STGCN block of (a) and (c), respectively.
+
 
 ### Data Preparation
 
