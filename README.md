@@ -68,9 +68,9 @@ If you use this code and model and dataset splits for your research, please cons
   journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
   title={Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises}, 
   year={2022},
-  volume={},
+  volume={30},
   number={},
-  pages={1-1},
+  pages={410-419},
   doi={10.1109/TNSRE.2022.3150392}}
   ```
 ## Acknowledgment
