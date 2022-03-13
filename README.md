@@ -70,7 +70,7 @@ python train.py --ex Kimore_ex5 --epoch 2000 --batch_size 10
 If you use this code and model and dataset splits for your research, please consider citing:
 
 ```
-@ARTICLE{9709340,
+@ARTICLE{deb-2022-graph,
   author={Deb, Swakshar and Islam, Md Fokhrul and Rahman, Shafin and Rahman, Sejuti},
   journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
   title={Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises}, 
