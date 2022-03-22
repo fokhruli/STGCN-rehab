@@ -23,7 +23,7 @@ Please download the pre-processed data from
 and extract files with
 ```
 cd st-gcn
-unzip <path to processed-data.zip>
+unzip <path to Dataset.zip>
 ```
 
 ## Requirements
