@@ -19,7 +19,7 @@ We experimented on two skeleton based rehabilitation datasts: [KIMORE](https://v
 Before training and testing, for the convenience of fast data loading,
 the datasets should be converted to the proper format.
 Please download the pre-processed data from
-[GoogleDrive]()
+[GoogleDrive](https://drive.google.com/drive/folders/1Vok-_HpLoqjKMybj9DHNxeG9C9yY44kM?usp=sharing)
 and extract files with
 ```
 cd st-gcn
