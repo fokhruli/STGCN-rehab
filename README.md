@@ -84,7 +84,7 @@ If you use this code and model and dataset splits for your research, please cons
 We thank the authors and contributors of original [GCN implementation](https://github.com/tkipf/gcn).
 
 ## Contact
-For any question, feel free to contact
+For any question, feel free to contact @
 ```
 Swakshar Deb     : swakshar.sd@gmail.com
 Md Fokhrul Islam : fokhrul.rmedu@gmail.com
