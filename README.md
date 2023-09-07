@@ -67,7 +67,7 @@ python train.py --ex Kimore_ex5 --epoch 2000 --batch_size 10
 ![guidence_vis-1](https://user-images.githubusercontent.com/55605296/155735706-fbe9291f-b438-45bc-ad84-63f4b826cb00.jpg)
 
 ## Citation
-If you use this code and model and dataset splits for your research, please consider citing:
+If you find our research helpful, please consider cite this work:
 
 ```
 @ARTICLE{deb-2022-graph,
