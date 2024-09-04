@@ -19,7 +19,7 @@ We experimented on two skeleton based rehabilitation datasts: [KIMORE](https://v
 Before training and testing, for the convenience of fast data loading,
 the datasets should be converted to the proper format.
 Please download the pre-processed UI-PRMD dataset from
-here [GoogleDrive](https://drive.google.com/drive/folders/1Vok-_HpLoqjKMybj9DHNxeG9C9yY44kM?usp=sharing) and preprocess KIMORE dataset from here [GoogleDrive](https://drive.google.com/drive/folders/1S_y95vxwIQFYxrNNzNODqVnxaKakNcXb?usp=sharing). Extract files with command below.
+here [GoogleDrive](https://drive.google.com/drive/folders/1yOUSuvhm-LePn5zrwZ4cWAs5EqETWsFz?usp=drive_link) and preprocess KIMORE dataset from here [GoogleDrive](https://drive.google.com/drive/folders/1S_y95vxwIQFYxrNNzNODqVnxaKakNcXb?usp=sharing). Extract files with command below.
 ```
 cd st-gcn
 unzip <path to Dataset.zip>
