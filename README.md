@@ -18,9 +18,8 @@ Figure 2: GCN based end-to-end models using (a-b) vanilla STGCN and (c-d) extend
 We experimented on two skeleton based rehabilitation datasts: [KIMORE](https://vrai.dii.univpm.it/content/kimore-dataset) and [UI-PRMD](https://webpages.uidaho.edu/ui-prmd/).
 Before training and testing, for the convenience of fast data loading,
 the datasets should be converted to the proper format.
-Please download the pre-processed data from
-[GoogleDrive](https://drive.google.com/drive/folders/1Vok-_HpLoqjKMybj9DHNxeG9C9yY44kM?usp=sharing)
-and extract files with
+Please download the pre-processed UI-PRMD dataset from
+here [GoogleDrive](https://drive.google.com/drive/folders/1Vok-_HpLoqjKMybj9DHNxeG9C9yY44kM?usp=sharing) and preprocess KIMORE dataset from here [GoogleDrive](https://drive.google.com/drive/folders/1S_y95vxwIQFYxrNNzNODqVnxaKakNcXb?usp=sharing). Extract files with command below.
 ```
 cd st-gcn
 unzip <path to Dataset.zip>
